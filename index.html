@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <fieldset>
+                <legend>BILL PAYMENT</legend>
+                <div class="bill-inp">
+                    <label for="billAmount">ITEM AMOUNT</label>
+                    <input type="text" value="" id="billAmount" placeholder="Item amount in rupees">
+                </div>
+                <div class="bill-inp">
+                    <label for="tipPercent">TIP PERCENTEGE</label>
+                    <input type="text" value="" id="tipPercent" placeholder="Tip in percentage">
+                </div>
+                <div class="bill-inp">
+                    <label for="tipAmount">TIP AMOUNT</label>
+                    <input type="text" value="" id="tipAmount" disabled placeholder="Tip amount">
+                </div>
+                <div class="bill-inp">
+                    <label for="totalAmount">TOTAL AMOUNT</label>
+                    <input type="text" value="" id="totalAmount" disabled placeholder="Total amount">
+                </div>
+                <div class="btn">
+                    <button id="btn">SUBMIT</button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
